@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">X Unit Converter</string>
+    <string name="enter_value">Enter value...</string>
+    <string name="convert">Convert</string>
 </resources>
