@@ -14,7 +14,7 @@
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tv_result"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -31,7 +31,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editTextNumberDecimal"
+            android:id="@+id/et_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
@@ -55,16 +55,16 @@
             android:id="@+id/btn_convert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif"
             android:text="@string/convert"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="24sp"
             app:backgroundTint="@color/purple"
             app:strokeColor="@color/white"
-            app:strokeWidth="2dp"
-            android:fontFamily="sans-serif"/>
+            app:strokeWidth="2dp" />
     </LinearLayout>
 
 
